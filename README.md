@@ -1,4 +1,4 @@
-#Hangman
+#Hangman game
 
 The steps needed to play the game:
 1. Select a word to play with.
