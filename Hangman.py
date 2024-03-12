@@ -8,7 +8,9 @@ word = choice(words)
 guessed, lives, game_over = [], 7, False
 
 # create a list of underscores to the length of the word
-guesses = ['_ '] * len(word)
+for x in word:
+    guesses = [0], ['_ '] * (len(word) - 1)
+
 
 # create main game loop
 while not game_over:
